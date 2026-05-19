@@ -137,9 +137,9 @@
 			<home>ActivateWindow(Home)</home>
 			<escape mod="longpress">fullscreen</escape>
 			<home mod="longpress">fullscreen</home>
-			<return mod="longpress">ActivateWindow(MusicPlaylist)</return>
-			<rightbracket>Addon.Default.OpenSettings(xbmc.player.musicviz)</rightbracket>
-			<c>Addon.Default.OpenSettings(xbmc.player.musicviz)</c>
+			<return mod="longpress">noop</return>
+			<rightbracket>noop</rightbracket>
+			<c>noop</c>
 			<rightbracket mod="longpress">ActivateWindow(VisualisationPresetList)</rightbracket>
 			<c mod="longpress">ActivateWindow(VisualisationPresetList)</c>
 			<p/>
@@ -154,8 +154,8 @@
 			<leftbracket mod="longpress">playerprocessinfo</leftbracket>
 			<i mod="longpress">playerprocessinfo</i>
 			<return mod="longpress">back</return>
-			<rightbracket>Addon.Default.OpenSettings(xbmc.player.musicviz)</rightbracket>
-			<c>Addon.Default.OpenSettings(xbmc.player.musicviz)</c>
+			<rightbracket>noop</rightbracket>
+			<c>noop</c>
 			<rightbracket mod="longpress">ActivateWindow(VisualisationPresetList)</rightbracket>
 			<c mod="longpress">ActivateWindow(VisualisationPresetList)</c>
 			<p/>

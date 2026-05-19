@@ -253,7 +253,7 @@
 					<include content="ImageWidget" condition="!Library.HasContent(music)">
 						<param name="text_label" value="$LOCALIZE[31104]" />
 						<param name="button_label" value="$LOCALIZE[31110]" />
-						<param name="button_onclick" value="ActivateWindow(music,files)"/>
+						<param name="button_onclick" value="noop"/>
 						<param name="button_id" value="7600"/>
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoMusicButton)"/>
 					</include>
@@ -682,7 +682,7 @@
 					<include content="ImageWidget" condition="String.IsEmpty(Weather.plugin)">
 						<param name="text_label" value="$LOCALIZE[31120]" />
 						<param name="button_label" value="$LOCALIZE[31121]" />
-						<param name="button_onclick" value="ActivateWindow(servicesettings,weather)"/>
+						<param name="button_onclick" value="noop"/>
 						<param name="button_id" value="15300"/>
 						<param name="button2_onclick" value="Skin.SetBool(HomeMenuNoWeatherButton)"/>
 					</include>
@@ -956,28 +956,12 @@
 							<visible>!Skin.HasSetting(HomeMenuNoTVShowButton)</visible>
 						</item>
 						<item>
-							<label>$LOCALIZE[2]</label>
-							<onclick>ActivateWindow(Music,root,return)</onclick>
-							<property name="menu_id">$NUMBER[7000]</property>
-							<thumb>icons/sidemenu/music.png</thumb>
-							<property name="id">music</property>
-							<visible>!Skin.HasSetting(HomeMenuNoMusicButton)</visible>
-						</item>
-						<item>
 							<label>$LOCALIZE[427]</label>
 							<onclick>PlayDisc</onclick>
 							<property name="menu_id">$NUMBER[21000]</property>
 							<thumb>icons/sidemenu/disc.png</thumb>
 							<property name="id">disc</property>
 							<visible>System.HasMediaDVD</visible>
-						</item>
-						<item>
-							<label>$LOCALIZE[20389]</label>
-							<property name="menu_id">$NUMBER[16000]</property>
-							<onclick>ActivateWindow(Videos,musicvideos,return)</onclick>
-							<thumb>icons/sidemenu/musicvideos.png</thumb>
-							<property name="id">musicvideos</property>
-							<visible>!Skin.HasSetting(HomeMenuNoMusicVideoButton)</visible>
 						</item>
 						<item>
 							<label>$LOCALIZE[24001]</label>
@@ -1010,15 +994,6 @@
 							<thumb>icons/sidemenu/favourites.png</thumb>
 							<property name="id">favorites</property>
 							<visible>!Skin.HasSetting(HomeMenuNoFavButton)</visible>
-						</item>
-						<item>
-							<label>$LOCALIZE[8]</label>
-							<onclick condition="!String.IsEmpty(Weather.Plugin)">ActivateWindow(Weather)</onclick>
-							<onclick condition="String.IsEmpty(Weather.Plugin)">ReplaceWindow(servicesettings,weather)</onclick>
-							<property name="menu_id">$NUMBER[15000]</property>
-							<thumb>icons/sidemenu/weather.png</thumb>
-							<property name="id">weather</property>
-							<visible>!Skin.HasSetting(HomeMenuNoWeatherButton)</visible>
 						</item>
 					</content>
 				</control>

@@ -48,13 +48,6 @@
 					<onclick>Skin.ToggleSetting(touchmode)</onclick>
 					<selected>Skin.HasSetting(touchmode)</selected>
 				</control>
-				<control type="radiobutton" id="704">
-					<label>$LOCALIZE[31093]</label>
-					<include>DefaultSettingButton</include>
-					<onclick condition="!String.IsEmpty(Weather.Plugin)">Skin.ToggleSetting(show_weatherinfo)</onclick>
-					<onclick condition="String.IsEmpty(Weather.Plugin)">ActivateWindow(servicesettings,weather)</onclick>
-					<selected>Skin.HasSetting(show_weatherinfo) + !String.IsEmpty(Weather.Plugin)</selected>
-				</control>
 				<control type="radiobutton" id="705">
 					<label>$LOCALIZE[31160]</label>
 					<include>DefaultSettingButton</include>
@@ -195,33 +188,6 @@
 					<label2>$VAR[TVShowOnClickActionLabel2Var]</label2>
 					<enable>!Skin.HasSetting(HomeMenuNoTVShowButton)</enable>
 				</control>
-				<control type="radiobutton" id="613">
-					<label>$LOCALIZE[2]</label>
-					<include>DefaultSettingButton</include>
-					<selected>!Skin.HasSetting(HomeMenuNoMusicButton)</selected>
-					<onclick>Skin.ToggleSetting(HomeMenuNoMusicButton)</onclick>
-				</control>
-				<control type="button" id="6130">
-					<label>- $LOCALIZE[31157]</label>
-					<include>DefaultSettingButton</include>
-					<onclick condition="System.AddonIsEnabled(plugin.library.node.editor)">ActivateWindow(programs,plugin://plugin.library.node.editor/?ltype=music,return)</onclick>
-					<onclick condition="System.HasAddon(plugin.library.node.editor) + !System.AddonIsEnabled(plugin.library.node.editor)">EnableAddon(plugin.library.node.editor)</onclick>
-					<onclick condition="!System.HasAddon(plugin.library.node.editor)">InstallAddon(plugin.library.node.editor)</onclick>
-					<enable>!Skin.HasSetting(HomeMenuNoMusicButton)</enable>
-				</control>
-				<control type="button" id="625">
-					<label>- $LOCALIZE[31174]</label>
-					<include>DefaultSettingButton</include>
-					<onclick>Skin.SelectBool(31174, 37015|album_onclick_browse, 208|album_onclick_play, 10008|album_onclick_playnext, 13347|album_onclick_queue)</onclick>
-					<label2>$VAR[AlbumOnClickActionLabel2Var]</label2>
-					<enable>!Skin.HasSetting(HomeMenuNoMusicButton)</enable>
-				</control>
-				<control type="radiobutton" id="6131">
-					<label>$LOCALIZE[20389]</label>
-					<include>DefaultSettingButton</include>
-					<selected>!Skin.HasSetting(HomeMenuNoMusicVideoButton)</selected>
-					<onclick>Skin.ToggleSetting(HomeMenuNoMusicVideoButton)</onclick>
-				</control>
 				<control type="radiobutton" id="618">
 					<label>$LOCALIZE[19020]</label>
 					<include>DefaultSettingButton</include>
@@ -264,12 +230,6 @@
 					<include>DefaultSettingButton</include>
 					<selected>!Skin.HasSetting(HomeMenuNoFavButton)</selected>
 					<onclick>Skin.ToggleSetting(HomeMenuNoFavButton)</onclick>
-				</control>
-				<control type="radiobutton" id="617">
-					<label>$LOCALIZE[8]</label>
-					<include>DefaultSettingButton</include>
-					<selected>!Skin.HasSetting(HomeMenuNoWeatherButton)</selected>
-					<onclick>Skin.ToggleSetting(HomeMenuNoWeatherButton)</onclick>
 				</control>
 			</control>
 			<control type="grouplist" id="622">

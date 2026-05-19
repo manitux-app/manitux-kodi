@@ -12,7 +12,7 @@
 <!-- not used in the current window's section.                                            -->
 <!--                                                                                      -->
 <!-- Actions can be built-in functions.                                                   -->
-<!--  eg <B>ActivateWindow(Music)</B>                                                     -->
+<!--  eg <B>noop</B>                                                     -->
 <!-- would automatically go to Music on the press of the B button.                        -->
 <!--                                                                                      -->
 <!--                                                                                      -->

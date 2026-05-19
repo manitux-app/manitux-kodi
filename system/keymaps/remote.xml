@@ -12,7 +12,7 @@
 <!-- not used in the current window's section.                                            -->
 <!--                                                                                      -->
 <!-- Actions can be built-in functions.                                                   -->
-<!--  eg <B>ActivateWindow(Music)</B>                                                     -->
+<!--  eg <B>noop</B>                                                     -->
 <!-- would automatically go to Music on the press of the B button.                        -->
 <!--                                                                                      -->
 <!-- An empty action removes the corresponding mapping from default and parent keymaps.   -->
@@ -52,11 +52,11 @@
       <mute>Mute</mute>
       <power>ShutDown()</power>
       <myvideo>ActivateWindow(Videos)</myvideo>
-      <mymusic>ActivateWindow(Music)</mymusic>
+      <mymusic>noop</mymusic>
       <mypictures>ActivateWindow(Pictures)</mypictures>
       <mytv>ActivateWindow(Videos,TvShows)</mytv>
       <green>ActivateWindow(Videos)</green>
-      <yellow>ActivateWindow(Music)</yellow>
+      <yellow>noop</yellow>
       <blue>ActivateWindow(Pictures)</blue>
       <zero>Number0</zero>
       <one>Number1</one>
@@ -73,7 +73,7 @@
   </global>
   <Home>
     <remote>
-      <clear>ActivateWindow(Weather)</clear>
+      <clear>noop</clear>
       <hash>ActivateWindow(Settings)</hash>
     </remote>
   </Home>

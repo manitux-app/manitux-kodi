@@ -12,7 +12,7 @@
 <!-- not used in the current window's section.                                            -->
 <!--                                                                                      -->
 <!-- Actions can be built-in functions.                                                   -->
-<!--  eg <B>ActivateWindow(Music)</B>                                                     -->
+<!--  eg <B>noop</B>                                                     -->
 <!-- would automatically go to Music on the press of the B button.                        -->
 <!--                                                                                      -->
 <!--  Long presses                                                                        -->
@@ -98,7 +98,7 @@
       <power>ActivateWindow(ShutdownMenu)</power>
       <sleep>ActivateWindow(ShutdownMenu)</sleep>
       <green>ActivateWindow(Videos)</green>
-      <yellow>ActivateWindow(Music)</yellow>
+      <yellow>noop</yellow>
       <blue>ActivateWindow(Pictures)</blue>
       <!-- Multimedia keyboard keys -->
       <browser_back>Back</browser_back>
@@ -123,7 +123,7 @@
       <rewind>Rewind</rewind>
       <record/>
       <launch_mail></launch_mail>
-      <launch_media_select>ActivateWindow(Music)</launch_media_select>
+      <launch_media_select>noop</launch_media_select>
       <launch_app1_pc_icon>ActivateWindow(Programs)</launch_app1_pc_icon>
       <launch_app2_pc_icon>ActivateWindow(Programs)</launch_app2_pc_icon>
       <launch_file_browser/>
@@ -144,7 +144,7 @@
       <f10>VolumeUp</f10>                 <!-- MCE Vol up -->
       <f9>VolumeDown</f9>                 <!-- MCE Vol down -->
       <f8>Mute</f8>                       <!-- MCE mute -->
-      <m mod="ctrl">ActivateWindow(music)</m>    <!-- MCE My music -->
+      <m mod="ctrl">noop</m>    <!-- MCE My music -->
       <i mod="ctrl">ActivateWindow(pictures)</i> <!-- MCE My pictures -->
       <e mod="ctrl">ActivateWindow(videos)</e>    <!-- MCE videos -->
       <m mod="ctrl,shift">PlayerControl(ShowVideoMenu)</m>         <!-- MCE DVD menu -->
@@ -465,9 +465,9 @@
       <menu>OSD</menu>
       <i>Info</i>
       <p>ActivateWindow(VisualisationPresetList)</p>
-      <v>Addon.Default.OpenSettings(xbmc.player.musicviz)</v>
-      <text>Addon.Default.OpenSettings(xbmc.player.musicviz)</text>
-      <n>ActivateWindow(MusicPlaylist)</n>
+      <v>noop</v>
+      <text>noop</text>
+      <n>noop</n>
       <left>StepBack</left>
       <right>StepForward</right>
       <left mod="longpress">Rewind</left>
@@ -490,9 +490,9 @@
       <i>Info</i>
       <o>PlayerProcessInfo</o>
       <p>ActivateWindow(VisualisationPresetList)</p>
-      <v>Addon.Default.OpenSettings(xbmc.player.musicviz)</v>
-      <text>Addon.Default.OpenSettings(xbmc.player.musicviz)</text>
-      <n>ActivateWindow(MusicPlaylist)</n>
+      <v>noop</v>
+      <text>noop</text>
+      <n>noop</n>
     </keyboard>
   </MusicOSD>
   <VisualisationPresetList>
@@ -507,7 +507,7 @@
       <p>Back</p>
       <v>Back</v>
       <text>Back</text>
-      <n>ActivateWindow(MusicPlaylist)</n>
+      <n>noop</n>
     </keyboard>
   </VisualisationPresetList>
   <SlideShow>

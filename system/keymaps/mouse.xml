@@ -12,7 +12,7 @@
 <!-- not used in the current window's section.                                            -->
 <!--                                                                                      -->
 <!-- Actions can be built-in functions.                                                   -->
-<!--  eg <middleclick>ActivateWindow(Music)</middleclick>                                 -->
+<!--  eg <middleclick>noop</middleclick>                                 -->
 <!-- would automatically go to Music on the press of the middle mouse button.             -->
 <!--                                                                                      -->
 <!--                                                                                      -->

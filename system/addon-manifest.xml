@@ -1,6 +1,4 @@
 <addons>
-  <addon>audioencoder.kodi.builtin.aac</addon>
-  <addon>audioencoder.kodi.builtin.wma</addon>
   <addon>kodi.binary.global.audioengine</addon>
   <addon>kodi.binary.global.filesystem</addon>
   <addon>kodi.binary.global.general</addon>
@@ -8,29 +6,18 @@
   <addon>kodi.binary.global.main</addon>
   <addon>kodi.binary.global.network</addon>
   <addon>kodi.binary.global.tools</addon>
-  <addon>kodi.binary.instance.audiodecoder</addon>
-  <addon>kodi.binary.instance.audioencoder</addon>
   <addon>kodi.binary.instance.imagedecoder</addon>
   <addon>kodi.binary.instance.inputstream</addon>
   <addon>kodi.binary.instance.peripheral</addon>
   <addon>kodi.binary.instance.screensaver</addon>
   <addon>kodi.binary.instance.vfs</addon>
   <addon>kodi.binary.instance.videocodec</addon>
-  <addon>kodi.binary.instance.visualization</addon>
   <addon>kodi.resource</addon>
-  <addon>metadata.album.universal</addon>
-  <addon>metadata.artists.universal</addon>
-  <addon>metadata.common.allmusic.com</addon>
   <addon>metadata.common.fanart.tv</addon>
-  <addon>metadata.common.musicbrainz.org</addon>
-  <addon>metadata.common.theaudiodb.com</addon>
-  <addon>metadata.generic.albums</addon>
-  <addon>metadata.generic.artists</addon>
   <addon>metadata.local</addon>
   <addon>metadata.themoviedb.org.python</addon>
   <addon>metadata.tvshows.themoviedb.org.python</addon>
   <addon>repository.xbmc.org</addon>
-  <addon>resource.images.weathericons.default</addon>
   <addon>resource.language.en_gb</addon>
   <addon>resource.uisounds.kodi</addon>
   <addon>screensaver.xbmc.builtin.black</addon>

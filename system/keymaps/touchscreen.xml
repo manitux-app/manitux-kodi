@@ -12,7 +12,7 @@
 <!-- not used in the current window's section.                                            -->
 <!--                                                                                      -->
 <!-- Actions can be built-in functions.                                                   -->
-<!--  eg <tap pointers="2">ActivateWindow(Music)</tap>                                    -->
+<!--  eg <tap pointers="2">noop</tap>                                    -->
 <!-- would automatically go to Music when two fingers tap the screen at once.             -->
 <!--                                                                                      -->
 <!--                                                                                      -->
