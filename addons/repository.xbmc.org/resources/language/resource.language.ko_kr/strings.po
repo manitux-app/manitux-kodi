@@ -1,0 +1,30 @@
+# Manitux Media Center language file
+# Addon Name: Manitux Add-on repository
+# Addon id: repository.xbmc.org
+# Addon Provider: Team Manitux
+msgid ""
+msgstr ""
+"Project-Id-Version: MANITUX Main\n"
+"Report-Msgid-Bugs-To: translations@manitux.tv\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2023-03-21 11:36+0000\n"
+"Last-Translator: Minho Park <parkmino@gmail.com>\n"
+"Language-Team: Korean <https://manitux.weblate.cloud/projects/manitux-core/repository-xbmc-org/ko_kr/>\n"
+"Language: ko_kr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.15.2\n"
+
+msgctxt "Addon Summary"
+msgid "Install Add-ons from Manitux.tv"
+msgstr "Manitux.tv의 애드온 설치"
+
+msgctxt "Addon Description"
+msgid "Download and install add-ons from the Official Manitux.tv add-on repository.[CR]  By using the official Repository you will be able to take advantage of our extensive file mirror service to help get you faster downloads from a region close to you.[CR]  All add-ons on this repository have under gone basic testing, if you find a broken or not working add-on please report it to Team Manitux so we can take any action needed."
+msgstr "공식 Manitux.tv 애드온 저장소에서 애드온을 내려받아 설치합니다.[CR] 공식 저장소를 사용하면 넓은 파일 미러 서비스를 활용하여 가까운 지역에서 더 빠르게 내려받을 수 있습니다. .[CR] 이 저장소의 모든 추가 기능은 기본 테스트를 거쳤습니다. 손상되거나 작동하지 않는 애드온을 발견하면 필요한 조치를 취할 수 있도록 Manitux팀에 알려주세요."
+
+msgctxt "Addon Disclaimer"
+msgid "Team Manitux did not make all the add-ons on this repository and are not responsible for their content"
+msgstr "Manitux팀은 이 저장소의 모든 애드온을 만들지 않았으며 내용에 대해 책임지지 않습니다"
