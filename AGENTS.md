@@ -27,7 +27,7 @@ Use an out-of-source build directory such as `../manitux-build` or `/tmp/manitux
 Typical X11 configure command:
 
 ```sh
-cmake . -B ../manitux-build -DCMAKE_INSTALL_PREFIX=/usr/local -DCORE_PLATFORM_NAME=x11 -DAPP_RENDER_SYSTEM=gl
+cmake . -B ../manitux-build -DCMAKE_INSTALL_PREFIX=../manitux-kodi-runtime -DCORE_PLATFORM_NAME=x11 -DAPP_RENDER_SYSTEM=gl
 ```
 
 Typical build command:

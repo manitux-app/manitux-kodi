@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="screensaver.xbmc.builtin.black" version="1.0.0" name="Black" provider-name="Manitux">
+	<extension point="xbmc.ui.screensaver" library="screensaver.xbmc.builtin.black" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_GB">Built-in black screensaver.</summary>
+		<summary lang="en_US">Built-in black screensaver.</summary>
+		<summary lang="tr_TR">Yerlesik siyah ekran koruyucu.</summary>
+		<description lang="en_GB">Turns the screen black when the screensaver is active.</description>
+		<description lang="en_US">Turns the screen black when the screensaver is active.</description>
+		<description lang="tr_TR">Ekran koruyucu etkinken ekrani siyaha cevirir.</description>
+		<license>GPL-2.0-or-later</license>
+	</extension>
+</addon>

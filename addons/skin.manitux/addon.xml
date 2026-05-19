@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.manitux" version="1.0.0" name="Manitux" provider-name="Manitux">
+	<requires>
+		<import addon="xbmc.gui" version="5.17.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<summary lang="en_GB">Simple default skin for Manitux.</summary>
+		<summary lang="en_US">Simple default skin for Manitux.</summary>
+		<summary lang="tr_TR">Manitux icin sade varsayilan dis gorunum.</summary>
+		<description lang="en_GB">A minimal black-and-white skin with quick access to settings, add-ons, and favourites.</description>
+		<description lang="en_US">A minimal black-and-white skin with quick access to settings, add-ons, and favourites.</description>
+		<description lang="tr_TR">Ayarlar, eklentiler ve favorilere hizli erisim sunan sade siyah-beyaz dis gorunum.</description>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>

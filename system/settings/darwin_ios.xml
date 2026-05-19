@@ -82,7 +82,7 @@
     <category id="skin">
       <group id="1">
         <setting id="lookandfeel.skin" type="addon">
-          <default>skin.estuary</default>
+          <default>skin.manitux</default>
         </setting>
       </group>
     </category>

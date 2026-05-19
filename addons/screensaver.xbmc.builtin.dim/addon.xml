@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="screensaver.xbmc.builtin.dim" version="1.0.0" name="Dim" provider-name="Manitux">
+	<extension point="xbmc.ui.screensaver" library="screensaver.xbmc.builtin.dim" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en_GB">Built-in dim screensaver.</summary>
+		<summary lang="en_US">Built-in dim screensaver.</summary>
+		<summary lang="tr_TR">Yerlesik karartma ekran koruyucu.</summary>
+		<description lang="en_GB">Dims the screen when the screensaver is active.</description>
+		<description lang="en_US">Dims the screen when the screensaver is active.</description>
+		<description lang="tr_TR">Ekran koruyucu etkinken ekrani karartir.</description>
+		<license>GPL-2.0-or-later</license>
+	</extension>
+</addon>

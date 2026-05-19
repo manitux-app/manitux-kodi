@@ -141,6 +141,10 @@ cmake_install.cmake
 /addons/audiodecoder.*
 /addons/visualization.*
 /addons/screensaver.*
+!/addons/screensaver.xbmc.builtin.black/
+!/addons/screensaver.xbmc.builtin.black/**
+!/addons/screensaver.xbmc.builtin.dim/
+!/addons/screensaver.xbmc.builtin.dim/**
 /addons/inputstream.*
 /addons/vfs.*
 
